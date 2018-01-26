@@ -66,6 +66,7 @@ exports[`should render ExpenseListFilters correctly 1`] = `
         "chooseAvailableStartDate": [Function],
         "clearDates": "Clear Dates",
         "closeDatePicker": "Close",
+        "dateIsSelected": [Function],
         "dateIsUnavailable": [Function],
         "enterKey": "Enter key",
         "escape": "Escape key",
@@ -92,6 +93,7 @@ exports[`should render ExpenseListFilters correctly 1`] = `
       }
     }
     readOnly={false}
+    regular={false}
     renderCalendarInfo={null}
     renderDayContents={null}
     renderMonth={null}
@@ -179,6 +181,7 @@ exports[`should render ExpenseListFilters with alt data correctly 1`] = `
         "chooseAvailableStartDate": [Function],
         "clearDates": "Clear Dates",
         "closeDatePicker": "Close",
+        "dateIsSelected": [Function],
         "dateIsUnavailable": [Function],
         "enterKey": "Enter key",
         "escape": "Escape key",
@@ -205,6 +208,7 @@ exports[`should render ExpenseListFilters with alt data correctly 1`] = `
       }
     }
     readOnly={false}
+    regular={false}
     renderCalendarInfo={null}
     renderDayContents={null}
     renderMonth={null}

@@ -58,6 +58,7 @@ exports[`should render ExpenseForm correctly 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -84,6 +85,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -169,6 +171,7 @@ exports[`should render ExpenseForm with expense data correctly 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -195,6 +198,7 @@ exports[`should render ExpenseForm with expense data correctly 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -280,6 +284,7 @@ exports[`should render error for invalid submission 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -306,6 +311,7 @@ exports[`should render error for invalid submission 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -394,6 +400,7 @@ exports[`should render error for invalid submission 2`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -420,6 +427,7 @@ exports[`should render error for invalid submission 2`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
