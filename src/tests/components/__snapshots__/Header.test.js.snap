@@ -21,7 +21,7 @@ exports[`should render Header correctly 1`] = `
     to="/create"
   >
     <p>
-      Add Expensify
+      Add Expense
     </p>
   </NavLink>
   <NavLink
