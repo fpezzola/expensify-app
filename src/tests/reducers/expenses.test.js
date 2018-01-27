@@ -3,7 +3,7 @@ import expensesReducer from '../../reducers/expenses';
 import expenses from '../fixtures/expenses';
 
 test('should setup default state',() =>{
-    const state = expensesReducer(undefined,{tyep: '@@INIT' });
+    const state = expensesReducer(undefined,{type: '@@INIT' });
     expect(state).toEqual([]);
 });
 
