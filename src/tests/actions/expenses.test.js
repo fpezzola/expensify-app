@@ -61,7 +61,7 @@ test('should setup edit expense action object', () => {
 });
 
 test('should update expense to database and store', (done) => {
-  const store = createMockStore({ auth: { uid } });
+  const store = createMockStore({ auth: { uid }  });
   const updates = {
     description: 'Mouse',
     amount: 3000,
